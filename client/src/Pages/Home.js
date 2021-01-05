@@ -4,7 +4,7 @@ import { useQuery } from '@apollo/client';
 import gql from 'graphql-tag';
 
 const Home = () => {
-    const { loading, data} = useQuery(FETCH_POSTS_QUERY)
+    const { loading, data } = useQuery(FETCH_POSTS_QUERY)
 
     if(data){
         console.log(data)
