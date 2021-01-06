@@ -8,3 +8,8 @@
 .menu-item{
     color: white !important;
 }
+
+.form-container{
+    width: 400px;
+    margin: auto;
+}
