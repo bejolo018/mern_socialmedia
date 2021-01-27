@@ -16,11 +16,11 @@ const PostCard = ({post: {body, createdAt, id, username, likeCount, commentCount
     return (
         <Card style={{backgroundColor: '#212121'}} fluid>
             <Card.Content>
-                <Image
+                {/* <Image
                     floated='right'
                     size='mini'
                     src='https://react.semantic-ui.com/images/avatar/large/molly.png'
-                />
+                /> */}
                 <Card.Header style={{color: 'white'}}>{username}</Card.Header>
                 <Card.Meta as={Link} to={`/posts/${id}`} style={{color: '#878787'}}>{moment(createdAt).fromNow()}</Card.Meta>
                 <Card.Description style={{color: 'white'}}>{body}</Card.Description>
