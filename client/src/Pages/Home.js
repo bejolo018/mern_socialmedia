@@ -1,7 +1,6 @@
 import React, { useContext } from 'react'
 import { Grid, Transition } from 'semantic-ui-react'
 import { useQuery } from '@apollo/client';
-import gql from 'graphql-tag';
 
 import { AuthContext } from '../Context/auth'
 import PostCard from '../Components/PostCard'
